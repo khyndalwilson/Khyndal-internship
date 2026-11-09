@@ -1,7 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import NFT from "../../images/nft.png";
 import backgroundImage from "../../images/bg-shape-1.jpg";
-import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
@@ -36,7 +36,7 @@ const Landing = () => {
               <div className="mb-sm-30"></div>
             </div>
             <div className="col-md-6 xs-hide">
-              <img src={NFT} className="lazy img-fluid" alt="" />
+              <img src={NFT} className="lazy img-fluid" alt="NFT Showcase" />
             </div>
           </div>
         </div>
